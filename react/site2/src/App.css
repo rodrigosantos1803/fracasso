@@ -1,0 +1,108 @@
+body {
+
+  margin: 0px;
+  overflow-y: auto;
+
+}
+
+body::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #d9d9d9;
+
+}
+
+ 
+
+body::-webkit-scrollbar {
+  width: 12px;
+  background-color: #3c6e71;
+
+}
+
+ 
+
+body::-webkit-scrollbar-thumb {
+
+  border-radius: 10px;
+
+  background-color: #609fa3;
+
+}
+
+.cabecalho {
+  background-color: #609fa3;
+
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 15px 30px 10px 30px;
+  color:#d9d9d9;
+  margin-bottom: 60px;
+}
+
+.palavra {
+  font-weight: bolder;
+  font-size: 20px;
+  margin-right: 50px;
+}
+
+.box-1 {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 200px;
+  justify-content: space-between;
+}
+
+.titulo {
+  margin-left: 245px;
+  font-weight: bolder;
+  font-size: 28px;
+  margin-bottom: 50px;
+}
+
+.inserir-nome {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.titulo-2 {
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+
+
+.inserir input {
+  width: 300px;
+  height: 30px;
+  padding-left: 10px;
+  border-width: 1px;
+  border-color: black;
+}
+
+.botao {
+  width: 80px;
+  height: 40px;
+  color:black;
+  margin-left: 1043px;
+}
+
+.box-2 {
+  display: flex;
+  flex-direction: row ;
+  justify-content: space-around;
+  
+}
+
+.titulo-3 {
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+.botao-1 {
+  width: 80px;
+  height: 40px;
+  color:black;
+}
